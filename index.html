@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>CIG Chat</title>
+    <title>Open Chat</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <style type="text/css">
       /* * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -93,7 +93,7 @@
           <div class="col-md-5">
               <div class="panel panel-primary">
                   <div class="panel-heading">
-                      <span class="glyphicon glyphicon-comment"></span> Chat
+                      <span class="glyphicon glyphicon-comment"></span>Open Chat
                   </div>
                   <div class="panel-body" id="chatWrapper">
                     <ul class="chat" id="messages">
@@ -223,7 +223,7 @@
 
       function myFunction() {
         var self = this;
-        var person = prompt("Please enter your name: ", "CIG Emp");
+        var person = prompt("Please enter your name: ", "Anonymous");
         if (person != null) {
           self.person = person;
         }
